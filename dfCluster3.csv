@@ -1,0 +1,4 @@
+Segment,Employment_Type,State,Decision,Loan_Amount,Monthly_Salary,Score
+First,employee,Kuala Lumpur,Accept,684591.2285714286,7775.346753246753,7.549350649350649
+Second,Self_Employed,Kuala Lumpur,Accept,451092.47029077116,7908.815423514538,7.490518331226296
+Third,Self_Employed,Kuala Lumpur,Accept,215048.66159695818,8227.381495564005,7.451204055766794
