@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 from PIL import Image
 
 # Image.open('mmu.png').con vert('RGB').save('mmu.jpeg')
@@ -157,152 +156,152 @@ elif page == "Q2 - Vaccine Distribution Modelling":
         st.markdown("## State 1")
         st.write("Taking the max capacity of vaccines for the state in mind, we have added the needed constraints to finally get the optimal solutions for each center.")
 
-        st.markdown("### Centre 1")
+        st.markdown("### Center 1")
         ST1CR1 = Image.open('ST1CR1.png')
         st.image(ST1CR1)
         st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
         
-        st.markdown("### Centre 2")
+        st.markdown("### Center 2")
         ST1CR2 = Image.open('ST1CR2.png')
         st.image(ST1CR2)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 3")
+        st.markdown("### Center 3")
         ST1CR3 = Image.open('ST1CR3.png')
         st.image(ST1CR3)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 4")
+        st.markdown("### Center 4")
         ST1CR4 = Image.open('ST1CR4.png')
         st.image(ST1CR4)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A, and in this occasion, the max amount condition had been added to further enhance the quality of the solution. This means that each brance is using up all the vaccine supply of the day. ")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 5")
+        st.markdown("### Center 5")
         ST1CR5 = Image.open('ST1CR5.png')
         st.image(ST1CR5)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A, and in this occasion, the max amount condition had been added to further enhance the quality of the solution. This means that each brance is using up all the vaccine supply of the day. ")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
     ## 2. STATE 2
     elif stateOption == 'State 2 (ST-2)':
         st.markdown("## State 2")
         st.write("Taking the max capacity of vaccines for the state in mind, we have added the needed constraints to finally get the optimal solutions for each center.")
 
-        st.markdown("### Centre 1")
+        st.markdown("### Center 1")
         ST2CR1a = Image.open('ST2CR1a.png')
         ST2CR1b = Image.open('ST2CR1b.png')
         st.image(ST2CR1a)
         st.image(ST2CR1b)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 2")
+        st.markdown("### Center 2")
         ST2CR2 = Image.open('ST2CR2.png')
         st.image(ST2CR2)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 3")
+        st.markdown("### Center 3")
         ST2CR3 = Image.open('ST2CR3.png')
         st.image(ST2CR3)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 4")
+        st.markdown("### Center 4")
         ST2CR4 = Image.open('ST2CR4.png')
         st.image(ST2CR4)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 5")
+        st.markdown("### Center 5")
         ST2CR5 = Image.open('ST2CR5.png')
         st.image(ST2CR5)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
     ## 3. STATE 3
     elif stateOption == 'State 3 (ST-3)':
         st.markdown("## State 3")
         st.write("Taking the max capacity of vaccines for the state in mind, we have added the needed constraints to finally get the optimal solutions for each center.")
 
-        st.markdown("### Centre 1")
+        st.markdown("### Center 1")
         ST3CR1 = Image.open('ST3CR1.png')
         st.image(ST3CR1)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 2")
+        st.markdown("### Center 2")
         ST3CR2 = Image.open('ST3CR2.png')
         st.image(ST3CR2)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 3")
+        st.markdown("### Center 3")
         ST3CR3 = Image.open('ST3CR3.png')
         st.image(ST3CR3)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 4")
+        st.markdown("### Center 4")
         ST3CR4 = Image.open('ST3CR4.png')
         st.image(ST3CR4)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 5")
+        st.markdown("### Center 5")
         ST3CR5 = Image.open('ST3CR5.png')
         st.image(ST3CR5)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
     ## 4. STATE 4
     elif stateOption == 'State 4 (ST-4)':
         st.markdown("## State 4")
         st.write("Taking the max capacity of vaccines for the state in mind, we have added the needed constraints to finally get the optimal solutions for each center.")
 
-        st.markdown("### Centre 1")
+        st.markdown("### Center 1")
         ST4CR1 = Image.open('ST4CR1.png')
         st.image(ST4CR1)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 2")
+        st.markdown("### Center 2")
         ST4CR2 = Image.open('ST4CR2.png')
         st.image(ST4CR2)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 3")
+        st.markdown("### Center 3")
         ST4CR3 = Image.open('ST4CR3.png')
         st.image(ST4CR3)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 4")
+        st.markdown("### Center 4")
         ST4CR4 = Image.open('ST4CR4.png')
         st.image(ST4CR4)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 5")
+        st.markdown("### Center 5")
         ST4CR5 = Image.open('ST4CR5.png')
         st.image(ST4CR5)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
     ## 5. STATE 5
     elif stateOption == 'State 5 (ST-5)':
         st.markdown("## State 5")
         st.write("Taking the max capacity of vaccines for the state in mind, we have added the needed constraints to finally get the optimal solutions for each center.")
 
-        st.markdown("### Centre 1")
+        st.markdown("### Center 1")
         ST5CR1 = Image.open('ST5CR1.png')
         st.image(ST5CR1)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 2")
+        st.markdown("### Center 2")
         ST5CR2 = Image.open('ST5CR2.png')
         st.image(ST5CR2)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A, and in this occasion, the max amount condition had been added to further enhance the quality of the solution. This means that each brance is using up all the vaccine supply of the day. ")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 3")
+        st.markdown("### Center 3")
         ST5CR3 = Image.open('ST5CR3.png')
         st.image(ST5CR3)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 4")
+        st.markdown("### Center 4")
         ST5CR4 = Image.open('ST5CR4.png')
         st.image(ST5CR4)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A, and in this occasion, the max amount condition had been added to further enhance the quality of the solution. This means that each brance is using up all the vaccine supply of the day. ")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
-        st.markdown("### Centre 5")
+        st.markdown("### Center 5")
         ST5CR5 = Image.open('ST5CR5.png')
         st.image(ST5CR5)
-        st.write("Extracting the optimal solution, we filtered through the solutions and extract the outcomes following the logic where the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A. Hence why Vac-B > Vac-C > Vac-A.")
+        st.write("To extarct the optimal solution, we filtered through the solutions and extract the outcomes where Vac-A < Vac-C < Vac-B. This logic follows the age grouping population since some certain age groups are more populated than others, and in this case, the population assigned to Vac-B are the majority, followed by Vac-C and lastly Vac-A.")
 
     
 elif page == "Q3 - Loan Application Modeling":
@@ -469,4 +468,3 @@ elif page == "Q3 - Loan Application Modeling":
         st.write('**Prediction 1 for *Employement_Type*** :', dfprediction.loc[6,'Prediction'])
         st.write('**Prediction 2 for *Employement_Type*** :', dfprediction.loc[7,'Prediction'])
 
-    #streamlit run ai_proj.py
